@@ -4,72 +4,30 @@
     box-sizing: border-box;
 }
 nav, body, aside, section, footer {
-    padding: 30px;
+    padding: 15px;
     color: hsl(0, 0%, 0%); 
-}
-header {
-    background-color: rgb(182, 180, 127);
-}
-div {
-    padding: 10px;
-}
-nav {
-    background-color: #DAD773;
-    max-width: 100%; height: auto;
-}
-body {
-    background-color: #dcedd0;
     font-family: Georgia, Times, 'Times New Roman', serif; 
     font: 100 italic bold 12pt georgia; 
 }
-section {
-    background-color: #A7B99E; 
-} 
-aside {
-    background-color: #94a58c;
-    padding: 10px;
-    max-width: 25%; height: auto;
+body {
+    background-color: #b6bfae;
 }
-footer {
-    background-color: #adbb7e;
-    padding: 10px;
-    max-width: 50%; height: auto;
-} 
-img {
-    padding: 25px;
+header {
+    background-color: #A7B99E;
+    text-align: center;
 }
-.tea-header {
-    background-image: url(../assets/teaheader.jpeg); 
-    background-size: 100%;
-    background-repeat: no-repeat;
-    display: block; 
-}  
-.paperemail-img {
-    max-width: 20%; height: auto;
-    background-image: url(../assets/paperemail.png);
-    background-size: 80%;
-    background-repeat: no-repeat;
-    background-position-y: 6px;
-    background-position-x: 5px;
-    background-color: #eedcdc;
+.header {
+    max-width: 100%;
 }
-.cart-img {
-    max-width: 20%; height: auto;
-    background-image: url(../assets/cart.png);
-    background-size: 80%;
-    background-repeat: no-repeat; 
-    background-position-y: 6px;
-    background-position-x: 3px;
-    background-color: #eedcdc;
+div {
+    padding: 20px;
 }
-.email-img {
-    max-width: 20%; height: auto;
-    background-image: url(../assets/email.png);
-    background-size: 80%;
-    background-repeat: no-repeat;
-    background-position-y: 10px;
-    background-position-x: 7px;
-    background-color: #eedcdc;
+nav {
+    max-width: 15%;
+}
+.banner {
+    max-width: 100%;
+    max-height: 35px;
 }
 .navigation {
     width: 200px;
@@ -93,42 +51,21 @@ img {
     color:rgb(165, 0, 0);
     text-decoration: none;
 }
-.teaproduct1-img {
-    max-width: 100%; height: auto;
-    background-image: url(../assets/teaproduct1.png);
-    background-size: 10%;
-    background-repeat: no-repeat;
+section {
+    background-color: #A7B99E; 
+    text-align: center;
+} 
+.product {
+    max-width: 100%;
+    max-height: 100px;
 }
-.teaproduct2-img {
-    max-width: 100%; height: auto;
-    background-image: url(../assets/teaproduct2.png);
-    background-size: 10%;
-    background-repeat: no-repeat;
+.product:hover {
+    filter:(1px);
+  -webkit-filter: blur(1px);
 }
-.teaproduct3-img {
-    max-width: 100%; height: auto;
-    background-image: url(../assets/teaproduct3.png);
-    background-size: 10%;
-    background-repeat: no-repeat;
-}
-.teaproduct4-img {
-    max-width: 100%; height: auto;
-    background-image: url(../assets/teaproduct4.png);
-    background-size: 10%;
-    background-repeat: no-repeat;
-}
-.teaproduct5-img {
-    max-width: 100%; height: auto;
-    background-image: url(../assets/teaproduct5.png);
-    background-size: 10%;
-    background-repeat: no-repeat;
-}
-.fairtrade-img {
-    max-width: 100%; height: auto;
-    background-image: url(../assets/fairtrade.png);
-    background-size: 100%;
-    background-repeat: no-repeat; 
-    background-color: #ffffff;
+.fairtrade {
+    max-width: 100%;
+    max-height: 100px;
 }
 .video-container {
     position: relative;
@@ -138,15 +75,23 @@ img {
   }
   .video-container iframe {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     width: 100%;
     height: 100%;
-  }
-.pot-image {
+}
+footer {
+    background-color: #94a58c;
     max-width: 100%; height: auto;
-    background-image: url(../assets/pot.jpeg);
-    background-size: 20%;
-    background-repeat: no-repeat; 
-    background-color: #553c3c;
+} 
+.pot {
+    max-width: 100%;
+    max-height: 50px;
+}
+h1 {
+    padding-top: 10px;
+}
+p {
+    margin-left: 20px;
+    margin-right: 20px;
 }
