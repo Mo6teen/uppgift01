@@ -1,0 +1,152 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+nav, body, aside, section, footer {
+    padding: 30px;
+    color: hsl(0, 0%, 0%); 
+}
+header {
+    background-color: rgb(182, 180, 127);
+}
+div {
+    padding: 10px;
+}
+nav {
+    background-color: #DAD773;
+    max-width: 100%; height: auto;
+}
+body {
+    background-color: #dcedd0;
+    font-family: Georgia, Times, 'Times New Roman', serif; 
+    font: 100 italic bold 12pt georgia; 
+}
+section {
+    background-color: #A7B99E; 
+} 
+aside {
+    background-color: #94a58c;
+    padding: 10px;
+    max-width: 25%; height: auto;
+}
+footer {
+    background-color: #adbb7e;
+    padding: 10px;
+    max-width: 50%; height: auto;
+} 
+img {
+    padding: 25px;
+}
+.tea-header {
+    background-image: url(../assets/teaheader.jpeg); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block; 
+}  
+.paperemail-img {
+    max-width: 20%; height: auto;
+    background-image: url(../assets/paperemail.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position-y: 6px;
+    background-position-x: 5px;
+    background-color: #eedcdc;
+}
+.cart-img {
+    max-width: 20%; height: auto;
+    background-image: url(../assets/cart.png);
+    background-size: 80%;
+    background-repeat: no-repeat; 
+    background-position-y: 6px;
+    background-position-x: 3px;
+    background-color: #eedcdc;
+}
+.email-img {
+    max-width: 20%; height: auto;
+    background-image: url(../assets/email.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+    background-position-x: 7px;
+    background-color: #eedcdc;
+}
+.navigation {
+    width: 200px;
+    margin-left: 0px;
+    margin-top: 0px;
+    list-style: none;
+}
+.navigation a:link {
+    color:rgb(1, 0, 0);
+    text-decoration: none;
+}
+.navigation a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.navigation a:hover {
+    color:rgb(82, 60, 18);
+    text-decoration: underline;
+}
+.navigation a:active {
+    color:rgb(165, 0, 0);
+    text-decoration: none;
+}
+.teaproduct1-img {
+    max-width: 100%; height: auto;
+    background-image: url(../assets/teaproduct1.png);
+    background-size: 10%;
+    background-repeat: no-repeat;
+}
+.teaproduct2-img {
+    max-width: 100%; height: auto;
+    background-image: url(../assets/teaproduct2.png);
+    background-size: 10%;
+    background-repeat: no-repeat;
+}
+.teaproduct3-img {
+    max-width: 100%; height: auto;
+    background-image: url(../assets/teaproduct3.png);
+    background-size: 10%;
+    background-repeat: no-repeat;
+}
+.teaproduct4-img {
+    max-width: 100%; height: auto;
+    background-image: url(../assets/teaproduct4.png);
+    background-size: 10%;
+    background-repeat: no-repeat;
+}
+.teaproduct5-img {
+    max-width: 100%; height: auto;
+    background-image: url(../assets/teaproduct5.png);
+    background-size: 10%;
+    background-repeat: no-repeat;
+}
+.fairtrade-img {
+    max-width: 100%; height: auto;
+    background-image: url(../assets/fairtrade.png);
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    background-color: #ffffff;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    width: 100%;
+  }
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+.pot-image {
+    max-width: 100%; height: auto;
+    background-image: url(../assets/pot.jpeg);
+    background-size: 20%;
+    background-repeat: no-repeat; 
+    background-color: #553c3c;
+}
