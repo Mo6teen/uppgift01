@@ -7,14 +7,16 @@ nav, body, aside, section, footer {
     padding: 15px;
     color: hsl(0, 0%, 0%); 
     font-family: Georgia, Times, 'Times New Roman', serif; 
-    font: 100 italic bold 12pt georgia; 
+    font: 100 italic 12pt georgia; 
 }
 body {
-    background-color: #b6bfae;
+    background-image: linear-gradient(180deg, #b6bfae, #b6bfae, #b3c7a3, #868f7e, #868f7e);
+    
 }
 header {
-    background-color: #A7B99E;
+    background-image: linear-gradient(60deg, #b6bfae, #c3d3b5);
     text-align: center;
+    padding: 20px
 }
 .header {
     max-width: 100%;
@@ -44,15 +46,15 @@ nav {
     text-decoration: none;
 }
 .navigation a:hover {
-    color:rgb(82, 60, 18);
+    color:rgb(38, 70, 100);
     text-decoration: underline;
 }
 .navigation a:active {
-    color:rgb(165, 0, 0);
+    color:rgb(255, 255, 255);
     text-decoration: none;
 }
 section {
-    background-color: #A7B99E; 
+    background-image: linear-gradient(90deg, #93a087, #c1ccb7, #d3e7be, #d2e0c4);
     text-align: center;
 } 
 .product {
@@ -60,8 +62,16 @@ section {
     max-height: 100px;
 }
 .product:hover {
-    filter:(1px);
-  -webkit-filter: blur(1px);
+    filter:opacity(10%);
+    -webkit-filter: blur(1px);
+}
+table {
+    margin: 20px;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #4f584b;
+    width: 1100px;
 }
 .fairtrade {
     max-width: 100%;
@@ -72,8 +82,8 @@ section {
     padding-bottom: 50%;
     height: 0;
     width: 100%;
-  }
-  .video-container iframe {
+}
+.video-container iframe {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -81,7 +91,7 @@ section {
     height: 100%;
 }
 footer {
-    background-color: #94a58c;
+    background-image: linear-gradient(60deg, #737a70, #4f584b);
     max-width: 100%; height: auto;
 } 
 .pot {
