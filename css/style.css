@@ -4,22 +4,24 @@
     box-sizing: border-box;
 }
 nav, body, aside, section, footer {
-    padding: 15px;
+    padding: 10px;
     color: hsl(0, 0%, 0%); 
     font-family: Georgia, Times, 'Times New Roman', serif; 
     font: 100 italic 12pt georgia; 
 }
 body {
-    background-image: linear-gradient(180deg, #b6bfae, #b6bfae, #b3c7a3, #868f7e, #868f7e);
+    background-image: linear-gradient(180deg, #a1ac98, #9ba196, #878a79, #88927f, #666d60);
     
 }
 header {
-    background-image: linear-gradient(60deg, #b6bfae, #c3d3b5);
+    background-image: linear-gradient(-120deg, #878887, #a1b88f, #676e61);
     text-align: center;
-    padding: 20px
 }
 .header {
     max-width: 100%;
+    width: 2000px; 
+    height: 125px;        
+    object-fit: cover;
 }
 div {
     padding: 20px;
@@ -30,6 +32,9 @@ nav {
 .banner {
     max-width: 100%;
     max-height: 35px;
+}
+.banner:hover {
+    background-color: rgb(211, 176, 112);
 }
 .navigation {
     width: 200px;
@@ -54,7 +59,7 @@ nav {
     text-decoration: none;
 }
 section {
-    background-image: linear-gradient(90deg, #93a087, #c1ccb7, #d3e7be, #d2e0c4);
+    background-image: linear-gradient(120deg, #70756b, #9aaa8b, #535a4f);
     text-align: center;
 } 
 .product {
@@ -62,7 +67,7 @@ section {
     max-height: 100px;
 }
 .product:hover {
-    filter:opacity(10%);
+    filter:opacity(1%);
     -webkit-filter: blur(1px);
 }
 table {
@@ -72,6 +77,9 @@ table {
 th, td {
     border: 1px solid #4f584b;
     width: 1100px;
+}
+td:hover {
+    background-color: rgb(201, 145, 42);
 }
 .fairtrade {
     max-width: 100%;
