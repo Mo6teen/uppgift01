@@ -31,7 +31,7 @@ nav {
 }
 .banner {
     max-width: 100%;
-    max-height: 35px;
+    height: 35px;        
 }
 .banner:hover {
     background-color: rgb(211, 176, 112);
@@ -41,6 +41,7 @@ nav {
     margin-left: 0px;
     margin-top: 0px;
     list-style: none;
+    
 }
 .navigation a:link {
     color:rgb(1, 0, 0);
@@ -67,7 +68,7 @@ section {
     max-height: 100px;
 }
 .product:hover {
-    filter:opacity(1%);
+    filter: opacity(1%);
     -webkit-filter: blur(1px);
 }
 table {
@@ -75,11 +76,14 @@ table {
     border-collapse: collapse;
 }
 th, td {
-    border: 1px solid #4f584b;
+    border: 1px solid #607259;
     width: 1100px;
 }
 td:hover {
     background-color: rgb(201, 145, 42);
+}
+th:hover {
+    background-color: rgb(243, 207, 140);
 }
 .fairtrade {
     max-width: 100%;
